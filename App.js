@@ -6,7 +6,7 @@ import { useFonts, Poppins_400Regular, Poppins_500Medium, Poppins_600SemiBold, P
 import * as SplashScreen from 'expo-splash-screen';
 import Globals from './global/Globals';
 import { Provider } from 'react-redux';
-import store from './redux/store';
+// import store from './redux/store';
 
 SplashScreen.preventAutoHideAsync();
 
