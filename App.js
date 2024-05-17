@@ -33,7 +33,7 @@ export default function App() {
 	return (
 		<SafeAreaView style={{ flex: 1 }} onLayout={onLayoutRootView}>
 			<StatusBar backgroundColor='whitesmoke' barStyle="dark-content"/>
-			<Provider store={store}>
+			<Provider>
 				<Navigator/>
 				<Globals.ShowResponse />
 			</Provider>

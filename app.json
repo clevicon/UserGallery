@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.efoskhi.UserGallery"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb6a03e9-e10f-4304-a6b1-cf33abdeaeb7"
+      }
+    },
+    "owner": "efoskhi"
   }
 }
